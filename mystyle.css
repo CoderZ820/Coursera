@@ -1,0 +1,155 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 200px;
+	padding-top: 70px;
+	font-size: 50px;
+	text-align: center;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	height: 400px;
+	width: 100%;
+	margin: auto;
+}
+
+h1 {
+	font-weight: bold;
+	background-color: lightgrey;
+	text-align: right;
+	border: 1px solid black;
+	margin: 0px; 
+	width: 120px;
+	height: 50px;
+	padding-right: 20px;
+	float: right;
+}
+.beef-menu, .chicken-menu, .sushi-menu {
+	background-color: lightblue;
+	border: 1px solid black;
+ 	width: 30%;
+	height: 300px;
+	margin: 20px 20px 20px 20px;
+}
+
+
+p {
+	font-size: 20px;
+	padding: 10px;
+	margin: 0;
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1400px) {
+}
+@media only screen and (min-width: 56px) and (max-width: 991px) {
+ 	* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+header {
+	height: 200px;
+	padding-top: 70px;
+	font-size: 50px;
+	text-align: center;
+}
+h1 {
+	font-weight: bold;
+	background-color: lightgrey;
+	text-align: right;
+	border: 1px solid black;
+	margin: 0px; 
+	width: 120px;
+	height: 50px;
+	padding-right: 20px;
+	float: right;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	height: 350px;
+	margin: auto;
+}
+
+.beef-menu, .chicken-menu, .sushi-menu {
+	background-color: lightblue;
+	height: 250px;
+	margin: 20px 20px 20px 20px;
+}
+.beef-menu {
+	border: 1px solid black;
+	flex: 45%;
+}
+.chicken-menu {
+	border: 1px solid black;
+	flex: 45%;
+} 
+.sushi-menu {
+	border: 1px solid black;
+	flex: 96%;
+}
+p {
+	font-size: 20px;
+	padding: 10px;
+	margin: 0;
+}
+}
+@media only screen and (min-width: 56px) and (max-width: 767px) {
+		* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+header {
+	height: 200px;
+	padding-top: 70px;
+	font-size: 50px;
+	text-align: center;
+}
+h1 {
+	font-weight: bold;
+	background-color: lightgrey;
+	text-align: right;
+	border: 1px solid black;
+	margin: 0px; 
+	width: 100%;
+	height: 50px;
+	padding-right: 20px;
+	float: right;
+}
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	height: 350px;
+}
+
+.beef-menu, .chicken-menu, .sushi-menu {
+	background-color: lightblue;
+	height: 250px;
+	margin: 20px 20px 20px 20px;
+}
+.beef-menu {
+	border: 1px solid black;
+	flex: 96%;
+}
+.chicken-menu {
+	border: 1px solid black;
+	flex: 96%;
+} 
+.sushi-menu {
+	border: 1px solid black;
+	flex: 96%;
+}
+p {
+	font-size: 20px;
+	padding: 10px;
+	margin: 0;
+}
+}
